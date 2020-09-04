@@ -1,0 +1,25 @@
+{
+    "name": "xiaoyu/test",
+    "description": "测试数据",
+    "type": "library",
+    "require": {
+        "php": ">= 7.0",
+        "composer-plugin-api": ">=1.0"
+    },
+    "require-dev": {
+        "composer/composer": ">=1.0.2"
+    },
+    "license": "MIT",
+    "autoload": {
+      "psr-4": {
+        "QI\\Component\\": "src/"
+      }
+    },
+    "authors": [
+        {
+            "name": "xiaoyu",
+            "email": "787878778@qq.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
